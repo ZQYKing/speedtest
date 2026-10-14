@@ -1,8 +1,9 @@
 # speedtest
 speedtest网络测速
 
+wget https://github.com/ZQYKing/speedtest/releases/download/v1.0.1/librespeed-5.2.5.tar
 
-docker load -i  librespeed:5.2.5.tar
+docker load -i  librespeed-5.2.5.tar
 
 docker run -d \
   --name librespeed \
